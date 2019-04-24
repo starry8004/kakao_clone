@@ -17,7 +17,7 @@ body,html{
   background-color: #7ED6DF;
   position: fixed;
   color  :white;
-  width:    50%;
+  width:    75%;
   height:   1500px;
   top:      100px;
   left:     0px;
@@ -31,7 +31,7 @@ body,html{
 #box2{
   background-color: #FFCC00;
   position: fixed;
-  width:    50%;
+  width:    25%;
   height:   1500px;
   top:      100px;
   right:    0px;
@@ -48,8 +48,8 @@ body,html{
   height: 5%;
   top:    90px;  
   bottom: 80%;
-  left: 45%;
-  right: 45%;
+  left: 70%;
+  right: 30%;
   
 
 }
