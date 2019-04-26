@@ -1,0 +1,24 @@
+html,body{
+  height: 100%;
+}
+.father{
+  display: flex;
+  justify-content: space -between;
+  align-items: row;
+  flex-direction: column;
+  height: 100%;
+  flex-wrap:  wrap;
+}
+.box{
+  background-color: grey;
+  width: 150px;
+  height: 150px;
+  border:1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:yellow;
+}
+.box:hover{
+  background-color: red;
+}
