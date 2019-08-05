@@ -1,3 +1,7 @@
+.body{
+	font-family: sans-serif;
+}
+
 .myButton {
 	-moz-box-shadow: 3px 4px 0px 0px #899599;
 	-webkit-box-shadow: 3px 4px 0px 0px #899599;
@@ -33,19 +37,16 @@
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
 	background-color:#bab1ba;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+
+
+.nico {
+	margin-top: 20px;
+	width: 150px;
+	transition: all 1s ease-in-out;
 }
-
-.div {
-    background-color: lightgrey;
-    width: 400px;
-    border: 15px solid green;
-    padding: 200px;
-    margin: 20px;
-  }
-
-.div:hover {
-    -webkit-transform:rotate(180deg);
-    transform:rotate(180deg);
+  
+.nico:hover {
+	border: 5px solid black;
+	transform: rotate(-1.6turn) scale(0.5);
+}
+  
